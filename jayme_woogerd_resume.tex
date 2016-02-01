@@ -17,12 +17,12 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.50in,top=0.3in,right=0.50in,bottom=0.3in]{geometry} % Document margins
+\usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.3in]{geometry} % Document margins
 
 \name{Jayme Raelynn Woogerd} % Your name
 \address{4251 18th Street \\ San Francisco, California 94114} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{206.979.7164 \\ jayme.woogerd@rd.io \\ GitHub: jwoogerd} % Your phone number and email
+\address{206.979.7164 \\ jwoogerd@gmail.com \\ GitHub: jwoogerd} % Your phone number and email
 
 \begin{document}
 
@@ -30,26 +30,42 @@
 %   WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Experience}
+\begin{rSection}{Engineering Experience}
 
-\begin{rSubsection}{Rdio, Inc, San Francisco, CA}{January 2015-present} {Software Engineer}
+\begin{rSubsection}{Pandora Media, Inc. (acquired Rdio, Inc. Dec 2015), Oakland, CA}{January 2015-present} {Software Engineer}
 
-\item Build and maintain high-performance backend system using Django for popular music-streaming application
-\item Participate in internal team meetings, project scoping and decision-making, and writing of technical documentation
+\item Engineered back-end infrastructure for new credit card payment processor integration from data store to API, which represented about 85\% of all subscription Rdio payments worldwide
+\item Developed logic for automatic retries on failed billing attempts, reducing subscription churn by 30\%
+\item Implemented an experiment to test user engagement for varying levels of ad debt using Facebook's Planout library
+\item Maintained high-performance back-end system using Python and Django, which included triaging \& fixing bugs and extending codebase to support feature updates
 \end{rSubsection}
 
-\begin{rSubsection}{Mobile Tool Management, Mukilteo, WA}{June-August 2014} {Software Engineering Intern} 
+\begin{rSubsection}{Mobile Tool Management, Inc., Mukilteo, WA}{June-August 2014} {Software Engineering Intern}
 
-\item Developed prototype web application to track, analyze, and visualize events of aerospace automation robots
-\item Helped develop and implement a company-wide build and release strategy using Git
+\item Built a prototype web application to track, analyze, and visualize events of aerospace automation robots
+\item Initiated and implemented a company-wide build and release strategy using Git
 \end{rSubsection}
 
 %-------------------------------------------------------
 
 \begin{rSubsection}{EditShare, LLC, Boston, MA}{May-August 2013}{Software Engineering in Test Intern}{}
-\item Wrote test scripts in Python using Sikuli library to automate GUI testing for EditShare shared-storage products
-\item Identified and fixed bugs in the development of new EditShare Connect client application
+\item Wrote Python scripts using the Sikuli library to automate GUI testing of networked storage applications
+\item Identified and fixed bugs in the development of new EditShare Connect client
 \end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%   TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Python, C/C++, Haskell, JavaScript, LaTeX, SQL (familiar) \\
+Technologies \& Tools & Django, Vim, Git/GitHub, Phabricator/Arc \\
+\end{tabular}
+\smallskip
 
 \end{rSection}
 
@@ -59,31 +75,17 @@
 
 \begin{rSection}{Education}
 
-{\bf Tufts University, Medford, MA} \hfill {\em December 2014} \\
+{\bf Tufts University, Medford, MA} \hfill {December 2014} \\
 Master of Science, Computer Science\\
 GPA 4.0/4.0. \smallskip \\
-Selected Professions Award (\$18,000 stipend), American Association of University Women, 2013-2014. \smallskip \\
-{\em Relevant Coursework: Data Structures, Machine Structure \& Assembly , Programming Languages, Algorithms, Advanced Functional Programming, Operating Systems, Machine Learning, Graphics, Computational Theory.}
+Selected Professions Award (\$18,000 stipend), American Association of University Women, 2013-2014. \smallbreak
+{\em {\bf \em Relevant coursework}: Data Structures, Machine Structure \& Assembly, Programming Languages, Algorithms, Advanced Functional Programming, Operating Systems, Machine Learning, Computer Graphics, Computational Theory, Programming Language Design.}
 \smallskip
 
-{\bf Bowdoin College, Brunswick, ME} \hfill {\em  May 2007} \\
+{\bf Bowdoin College, Brunswick, ME} \hfill {May 2007} \\
 Bachelor of Arts, Physics \& Astronomy, Classics \\
-GPA 3.76/4.0, Graduated Cum Laude.  \smallskip \\
-Sarah and James Bowdoin Scholar (Dean's List), 2003-2007; First-Team All-Academic Honors, 2003-2007; Koelln Fellowship, 2006; Faculty Scholarship, 2003. \\
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Technical Strengths}
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Languages & Python, C/C++, LaTeX, Haskell, JavaScript, SQL (familiar) \\
-Technologies & Django, Node.js, HTML5/CSS3\\
-Tools & Vim, Git/GitHub, Phabricator
-\end{tabular}
-\smallskip
-
+GPA 3.76/4.0, Cum Laude.  \smallskip \\
+Sarah and James Bowdoin Scholar (Dean's List), 2003-2007; First-Team All-Academic Honors, 2003-2007; Hannibal Hamlin Emery Latin Prize for proficiency in Latin, 2007; Koelln Fellowship, 2006.
 \end{rSection}
 
 
@@ -93,7 +95,7 @@ Tools & Vim, Git/GitHub, Phabricator
 
 \begin{rSection}{Leadership \& Other Activities}
 Member, Tufts Women in Computer Science, 2012-2014. \\
-Backpacked though New Zealand, Australia, Fiji, Japan, Venezuela, Hong Kong, Thailand, Vietnam, Laos, Cambodia, Philippines (December 2007-June 2010). \\
+Solo backpacked though eleven countries (December 2007-June 2010). \\
 Team Captain, NCAA Division III Bowdoin Women's Ice Hockey Team, 2006-2007.\\
 Team Captain, NCAA Division III Bowdoin Softball Team 2007, Selected All-NESCAC.\\
 \end{rSection}
